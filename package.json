@@ -12,8 +12,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@capacitor/android": "^4.7.3",
     "@capacitor/app": "4.1.1",
-    "@capacitor/core": "4.7.3",
+    "@capacitor/core": "^4.7.3",
     "@capacitor/haptics": "4.1.0",
     "@capacitor/keyboard": "4.1.1",
     "@capacitor/status-bar": "4.1.1",
@@ -26,7 +27,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@capacitor/cli": "4.7.3",
+    "@capacitor/cli": "^4.7.3",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/test-utils": "^2.3.0",
     "cypress": "^12.7.0",
