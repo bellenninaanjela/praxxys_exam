@@ -1,9 +1,9 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'praxxys_exam',
-  webDir: 'dist',
+  appId: 'com.fastfoop.app',
+  appName: '\x17Praxxys FastFood',
+  webDir: 'public',
   bundledWebRuntime: false
 };
 
