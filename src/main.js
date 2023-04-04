@@ -23,10 +23,20 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+import './theme/home.css';
+import './theme/order.css';
+import './theme/food.css';
+
+// layout 
+import SideMenu from './components/SideMenu.vue'
+
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
   
+  app.component('sidemenu', SideMenu);
+
 router.isReady().then(() => {
   app.mount('#app');
 });

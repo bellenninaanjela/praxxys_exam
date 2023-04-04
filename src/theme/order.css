@@ -1,0 +1,32 @@
+.menu-card {
+    height: 13rem;
+    background-color: #e7e7e7;
+    box-shadow: none;
+}
+
+.menu-card ion-img:first-child {
+    height: 80%;
+}
+
+.menu-card ion-img {
+    height: 50%;
+    margin-top: -1.5rem;
+}
+
+.menu-card ion-card-header {
+    height: 3.5rem;
+    padding: .5rem 1rem;
+}
+
+.menu-card ion-card-title {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.menu-card ion-card-subtitle {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #dd0000;
+}

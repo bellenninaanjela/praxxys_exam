@@ -1,0 +1,112 @@
+.food-card {
+    height: 12rem;
+    background-color: #e7e7e7;
+    box-shadow: none;
+}
+
+.food-card ion-img {
+    /* object-fit: contain; */
+    height: 15rem;
+    margin-top: -2rem;
+}
+
+.food-desc div {
+    font-weight: 600;
+    color: #dd0000;
+}
+
+.food-desc span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.food-desc p {
+    font-size: 13px;
+    color: #3c3c3c;
+}
+
+.quantity-container {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white!important;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.quantity-container ion-button {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.quantity-container ion-label {
+    padding: 0 1rem;
+}
+
+.beverage-container ion-select{
+    /* --inner-arrow-color: red; */
+    background-color: #e7e7e7;
+    border-radius: 15px;
+    border: 1px solid #d5d5d5;
+    color: #5c5c5c;
+    padding: 0 1rem;
+    margin-top: .5rem;
+    display: flex;
+}
+
+.beverage-size {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.add-item {
+    margin: 1rem 0;
+}
+
+
+.add-item .price {
+    font-weight: 600;
+    color: #dd0000;
+    margin: 0;
+}
+
+.add-item span {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.add-item p {
+    font-size: 13px;
+    color: #3c3c3c;
+    margin: 0;
+}
+
+
+.add-quantity {
+    background-color: white!important;
+    margin-left: auto;
+    margin-right: 0;
+    /* text-align: right; */
+}
+
+.add-quantity ion-button {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.add-quantity ion-label {
+    padding: 0 1rem;
+}
+
+.right {
+    text-align: right;
+}
+
+ion-button.add-order {
+    --background: #dd0000;
+    --background-activated: #ffb300;
+    font-weight: 600;
+}
