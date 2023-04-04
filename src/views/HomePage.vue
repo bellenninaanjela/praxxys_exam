@@ -1,5 +1,5 @@
 <template>
-	<!-- <sidemenu></sidemenu> -->
+	<sidemenu></sidemenu>
 
 	<ion-page id="main-content">
 		<ion-header>

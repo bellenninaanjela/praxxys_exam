@@ -10,7 +10,7 @@
                 <ion-item router-link="/">
                     Home
                 </ion-item>
-                <ion-item router-link="/order">
+                <ion-item router-link="/category/1">
                     Order Now!
                 </ion-item>
                 <ion-item router-link="/">
